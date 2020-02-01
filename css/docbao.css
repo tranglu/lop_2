@@ -1,0 +1,91 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+ a.tieude{
+	color:#00BBF4;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 700;
+	font-family: arial;
+	border-left: 5px solid #00BBF4;
+	padding-left: 7px;
+}
+a.tieude:hover {
+	text-decoration: underline;
+}
+.noidung{
+	width: 800px;
+	height: 435px;
+	padding-top: 10px;
+}
+.ndto{
+	float: left;
+	margin-right: 10px;
+	width: 425px;
+	height: 470px;
+	background-color: #F6F6F6;
+}
+div.ndto img{
+	width: 425px;
+	height: 318px;
+}
+div.ndto a.tdto{
+	color:#004F8B;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 28px;
+	display:block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+div.ndto a.tdto:hover{
+	text-decoration: underline;
+	color: #00BBF4;
+}
+div.ndto p{
+	color: #004F8B;
+	font-family: arial;
+	font-size: 19px;
+    line-height: 24px;
+	display:block;
+	margin: 15px;
+}
+div.ndnho{
+	width: 352px;
+	float: left;
+}
+div.mottin {
+	width: 166px;
+	height:200px;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 25px;
+}
+div.mottin img{
+	width: 166px;
+	height: 120px;
+}
+div.mottin a.tdnho{
+	color:#004F8B;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 17px;
+	display:block;
+}
+div.mottin a.tdnho:hover{
+	text-decoration: underline;
+	color: #00BBF4;
+}
+.motkhoitin{
+	padding: 13px;
+	height: 500px;
+	margin: 10px;
+}

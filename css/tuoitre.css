@@ -1,0 +1,153 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+.tinnoibat{
+	margin-top:200px;
+	width: 980px;
+	height: 330px;
+	margin: auto;
+	position: relative;
+}
+.trai{
+	width: 600px;
+	height: 330px;
+	float: left;
+	border-right: 1px solid gray;
+}
+.trai .tieude{
+	width: 600px;
+	height: 50px;
+}
+.tieude ul>li{
+	list-style: none;
+	margin: 10px 0px;
+	float: left;
+}
+.tieude ul>li>a{
+	font-family:"Roboto";
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: gray;
+}
+.tieude ul>li>a.td1{
+	color: black;
+	font-size: 15px;
+	border-left: 5px solid red;
+}
+.dstin{
+	width: 600px;
+}
+.mottin{
+	width: 190px;
+	height: 230px;
+	margin-right: 10px;
+	float:left;
+}
+.mottin img{
+	height: 118px;
+	margin-bottom: 5px;
+}
+ a.td {
+	font-family:"Roboto";
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	display: block;
+	margin-bottom: 10px;
+}
+.mottin p{
+	font-family:"Roboto";
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 12px;
+	color: gray;
+}
+.phai{
+	width: 379px;
+	height: 300px;
+	float: left;
+}
+.phai .tieude{
+	margin-left: 10px;
+	width: 379px;
+	height: 50px;
+}
+.tinto{
+	width: 379px;
+	height: 118px;
+	margin-bottom: 10px;
+
+	
+}
+.hinhto{
+	width: 186px;
+	height: 118px;
+	float: left;
+	margin: 0px 10px;
+}
+a.ds{
+	font-family:"Roboto";
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 12px;
+	color: gray;
+	display: block;
+	margin-bottom: 10px;
+}
+.tinnho{
+	width: 380px;
+	height: 70px;
+	margin-left: 10px;
+}
+.hinhnho{
+	width: 90px;
+	height: 55px;
+	float: left;
+	margin-right: 10px;
+}
+a.nho{
+	font-family:"Roboto";
+	text-decoration: none;
+	padding-left: 10px;
+	font-size: 10px;
+	color: gray;
+	display: block;
+}
+.vien{
+	margin-top: 3px;
+	width: 980px;
+	border: 3px dotted gray;
+	height: 1px;
+	margin:auto;
+
+}
+.line {
+    width: 100%;
+    border-bottom: dotted 1px #222;
+    opacity: .3;
+    height: 12px;
+    display: block;
+}
+.line:before {
+    content: '';
+    height: 1px;
+    width: 100%;
+    border-bottom: dotted 1px #222;
+    position: absolute;
+    top: 5px;
+    left: 0;
+}
+.line:after {
+    content: '';
+    height: 1px;
+    width: 100%;
+    border-bottom: dotted 1px #222;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}

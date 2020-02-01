@@ -1,0 +1,93 @@
+   *{
+   	padding: 0px;
+   	margin: 0px;
+   } 
+   .tinchinh{
+   	width: 435px;
+   	height: 365px;
+    border-top:2px solid #CD5667;
+    margin:auto;
+   }
+  .tieude{
+	 width: 435px;
+   text-align: center;
+   }
+
+ .tieude a.tentd{
+  font-family: "MyriadPro-Cond";
+  color:#D7657C;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  background-color: white;
+  position: relative;
+  top:22px;
+  padding:10px;
+ }
+ .vien{
+  border-top:1px solid gray;
+  border-bottom: 3px solid gray;
+  height: 2px;
+
+ }
+    .tinto{
+    	width: 435px;
+    	height: 175px;
+    	margin: 25px 0px;
+    }
+    .ngang{
+      display: block;
+      margin-bottom: 5px;
+      height: 125px;
+    }
+    .tinto img{
+    	width: 175px;
+    	height: 120px;
+    	float: left;
+    	margin-right:10px; 
+      border: 1px solid black;
+      padding:2px;
+      display: block;
+      box-shadow: 3px 5px 8px grey;
+      margin-bottom: 5px;
+    }
+    .tinto a.tdto{
+      width: 240px;
+      height: 125px;
+      float: right;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 19px;
+      line-height: 20px;}
+      
+      .tinto p{
+        margin-top:13px;
+        color: #66667D;
+      }
+      .tinnho{
+        width: 430px;
+      height: 120px;
+      }
+      .tinnho a.tdnho{
+        text-decoration: none;
+        font-family: Arial;
+        font-size: 14px;
+          
+      }
+        .tinnho ul {
+          list-style: none;
+        }
+      .tinnho ul li{
+        padding:10px 0px;
+        border-bottom: 1px dotted #66667D ;
+
+      }
+      .fa-square{
+        background-color: #CD5667;
+        font-size: 7px;
+        margin-right: 7px;
+        position: relative;
+        top:-3px;
+      }

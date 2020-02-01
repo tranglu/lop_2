@@ -1,0 +1,189 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+.noidung{
+	display: block;
+	width: 1128px;
+	height: 633px;
+	margin-left: 100px;
+}
+a.khoianh{
+	display: block;
+	width: 280px;
+	height: 210px;
+	position: relative;
+	float: left;
+	margin-left: 2px;
+	margin-bottom: 2px;
+}
+
+a.khoianh .layer1{
+	width: 280px;
+	height: 210px;
+}
+a.khoianh .layer2 {
+	position: absolute;
+	top:0px;
+	left: 0px;
+	z-index: 1;
+	opacity: 0.3;
+	width: 280px;
+	height: 210px;
+	background-image: -webkit-linear-gradient(top,white,black);
+	transition: 0.1s;
+}
+a.khoianh:hover .layer2{
+opacity: 0;
+}
+ a.khoianh .layer3{
+	position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+    height: 48px;
+    color: white;
+    padding: 8px 13px;
+    font-size: 19px;
+}
+a.khoianh:hover .layer3{
+bottom: 50px;
+}
+a.anhto{
+	width: 561px;
+	height: 421px;
+}
+a.anhto .layer1{
+	width: 561px;
+	height: 421px;
+}
+a.anhto .layer2 {
+	
+	width: 560px;
+	height: 421px;
+
+}
+a.anhto:hover .layer2{
+opacity: 0;
+}
+ a.khoianh.anhto .layer3{
+	
+    height: 48px;
+    color: white;  
+    font-size: 23px;
+}
+a.anhto:hover .layer3{
+bottom: 50px;
+}
+h1{
+	width: 300px;
+    height: 40px;
+    display: block;
+    margin: 10px;
+    margin-left: 110px;
+}
+/* tin nổi bật */
+.tinnoibat{
+	width: 740px;
+	height: 1900px;
+	display: block;
+	margin-left: 100px;
+}
+.mottin{
+	display: block;
+	width: 360px;
+	height: 425px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 50px;
+}
+.mottin:nth-child(2n){
+	margin-right: 0px;
+}
+a.tren{
+	width: 360px;
+	height: 205px;
+	position: relative;
+	margin-bottom: 8px;
+	display: block;
+	overflow: hidden;
+}
+a.tren .layer1{
+	width: 360px;
+	height: 205px;
+	position: absolute;
+	z-index: 1;
+}
+a.tren .layer2{
+	color: white;
+    background-color: #0092C9;
+    width: 116px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    font-weight: bold;
+    padding: 5px;
+}
+a.tren .layer3{
+	color: white;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+	display: block;
+	position: absolute;
+	bottom:-12px;
+	left: 8px;
+	transform: rotate(45deg);
+	z-index:3;
+}
+.tacgia{
+	width: 360px;
+	height: 50px;
+	display: block;
+}
+.tacgia img{
+	width: 40px;
+	height: 40px;
+	display: block;
+	border-radius: 20px;
+	float: left;
+}
+.tacgia a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	float: left;
+	padding-left: 8px;
+	display: block;
+	width: 150px;
+	height: 35px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+.tacgia a:hover{
+	color: #980e0e;
+}
+.trichdan{
+	width: 360px;
+	height: 162px;
+	display: block;
+}
+.trichdan a{
+	color: #211e1e;
+	text-decoration: none;
+	font-size: 16px;
+	float: left;
+	padding-left: 10px;
+	display: block;
+	line-height: 29px;
+}
+.trichdan p{
+	font-size: 14px;
+	float: left;
+	padding-left: 10px;
+	display: block;
+	line-height: 20px;
+}

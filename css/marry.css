@@ -1,0 +1,478 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin-left: 50px;
+}
+
+.banner{
+	background-image: url("../images/m1.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 600px;
+	position: relative;
+	background-position-x: -120px;
+
+}
+.layer1{
+	position: absolute;
+	top: 222px;
+	left: 115px;
+	z-index: 1;
+}
+nav{
+	background-color: #919999a1;
+	color: white;
+	font-size: 25px;
+	width: 500px;
+	display: inline-block;
+	padding: 10px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+}
+.form{
+	background-color: #919999a3;
+	color: white;
+	font-size: 30px;
+	display:block;
+	width: 978px;
+	height: 100px;
+}
+.input,.select1,.select2,.button{
+
+height: 45px;
+font-size: 16px;
+margin: 20px 10px;
+color: gray;
+}
+.form .input{
+	width: 400px;
+}
+.form .select1,.select2{
+	width: 170px;
+
+}
+.button{
+	background-color: #EC3D79;
+	border: none;
+	transition: 0.3s;
+	color: white;
+	width: 100px;
+}
+.button:hover{
+	background-color: #23CDB7;
+}
+.banner .layer2{
+	position: absolute;
+	width: 300px;
+	height: 50px;
+	display: block;
+	top: 213px;
+	left: 779px;
+	z-index: 2;
+}
+.layer2 p.hang1{
+	font-size: 15px;
+	text-align: right;
+	width: 300px;
+	height: 50px;
+	display: block;
+}
+.gioithieu{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+.tinnoibat,.ketnoi{
+	margin: 20px 0px;
+	width: 780px;
+	height: 300px;
+	display: block;
+	float: left;
+	border-bottom: 1px solid gray;
+}
+.tinnho{
+	width: 247px;
+	height: 300px;
+	display: block;
+	margin-left: 10px;
+	float: left;
+}
+.tinnho a.hinhtinnho img{
+	width: 247px;
+	height: 188px;
+	display: block;
+	margin-bottom: 10px;
+	transition: 0.4s;
+}
+.tinnho a.hinhtinnho img:hover{
+	opacity: 0.5;
+}
+
+
+.tinnho a.tdnho{
+	text-decoration: none;
+	font-size: 20px;
+
+}
+.tdnho{
+	width: 247px;
+	height: 50px;
+	display: block;
+	font-family: "tahoma";
+	color: black;
+	line-height: 20px;
+}
+.chimuc span,a.muc{
+	width: 80px;
+	height: 15px;
+	display: inline-block;
+	font-family: "tahoma";
+	color: gray;
+	line-height: 20px;
+	font-size: 14px;
+	font-style: italic;
+
+}
+.chimuc a{
+	text-decoration: none;
+}
+
+.ketnoi{
+	width: 425px;
+	text-align: center;
+	border: none;
+
+}
+.dayicon{
+	margin-left: 100px;
+	width: 200px;
+	height: 50px;
+	display: block;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+	float: left;
+	color: #EC3D79;
+	display: block;
+	margin:10px;
+}
+.fab, .fas{
+	font-size: 30px;
+}
+.khuyenmai{
+	width: 780px;
+	height: 500px;
+	display: block;
+	margin-bottom: 20px;
+
+}
+.khuyenmai a,.video a{
+	text-decoration: none;
+	color: #333333;
+	font-family: inherit;
+}
+.khuyenmai a:hover , .video a:hover {
+	color: #EC3D79;
+}
+p.tieude{
+	font-family: inherit;
+	display: block;
+	width: 300px;
+	margin: 10px 5px;
+	font-size: 25px;
+}
+.chuongtrinh{
+	width: 785px;
+	height: 345px;
+	display: block;
+	overflow: scroll;
+	border-bottom: 1px solid gray;
+}
+.motchuongtrinh{
+	width: 245px;
+	height: 135px;
+	display: block;
+	margin: 5px;
+	float: left;
+	
+}
+.motchuongtrinh .tdct{
+	width: 100%;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.motchuongtrinh .hinhct{
+	width: 100px;
+	height: 100px;
+	float: left;
+	display: block;
+	margin-right: 10px;
+}
+.ndct{
+	width: 110px;
+	height: 100px;
+	display: block;
+	float: left;
+}
+.gia{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.diadiem{
+	font-style: italic;
+	font-size: 14px;
+	width: 90px;
+}
+.datmua{
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+.datmua p{
+	width: 70%;
+	display: block;
+	float: left;
+	padding:10px;
+	height: 30px;
+	margin-top: 10px;
+	line-height: 20px;
+}
+.datmua .button{
+	width: 20%;
+	display: block;
+	float: left;
+	text-align: center;
+	height: 30px;
+	padding:10px;
+	color: white;
+}
+.video{
+	width: 100%;
+	height: 300px;
+	display: block;
+	background-color: #80808026;
+	opacity: 0.7;
+	margin-bottom: 50px;
+}
+.dsvideo{
+	margin-left: 50px;
+	height: 250px;
+	width: 785px;
+	display: block;
+}
+.motvideo{
+	margin: 10px;
+	height: 250px;
+	width: 240px;
+	display: block;
+	float: left;
+}
+video {
+	width: 240px;
+	height: 150px;
+	margin:10px 10px;
+}
+.motvideo p{
+	width: 240px;
+	height: 50px;
+	margin:10px 10px;
+	display: block;
+	font-weight: bold;
+	font-size: 17px;
+	color: black;
+}
+/* phần cộng đồng */
+.congdong{
+	width: 100%;
+	height: 730px;
+	display: block;
+	margin-bottom: 10px;
+}
+.congdong .trai{
+	width: 785px;
+	height: 730px;
+	display: block;
+	float: left;
+}
+.trai p{
+	width: 785px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	font-size: 18px;
+	color: black;
+}
+
+.congdong .trai .motcongcu{
+	width: 372px;
+	height: 285px;
+	display: block;
+	margin: 10px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.motcongcu img.layer1{
+	width: 372px;
+	height: 285px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+}
+.motcongcu .layer2{
+	width: 372px;
+	height: 100px;
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 150px;
+	left: 0px;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	transition: 0.3s;
+}
+.motcongcu .layer3{
+	width: 372px;
+	height: 220px;
+	display: block;
+	position: absolute;
+	z-index: 3;
+	bottom: -220px;
+	left: 0px;
+	transition: 0.3s;
+}
+.mothang a{
+	width: 372px;
+	height: 100px;
+	display: block;
+	opacity: 0.8;
+}
+.mothang a{
+	text-decoration: none;
+}
+.motcongcu .layer3 img,.motcongcu .layer3 p{
+	width: 130px;
+	height: 100px;
+	margin:5px;
+	float: left;
+}
+.motcongcu .layer3 p{
+	width: 215px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	
+}
+.mothang a:hover{
+	opacity: 1;
+}
+.motcongcu .layer4{
+	width: 372px;
+	height: 285px;
+	display: block;
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+	background: #2f2b2bc2;
+	opacity: 0;
+}
+.motcongcu:hover .layer4 {
+
+	opacity: 0.7;
+}
+.motcongcu:hover .layer2{
+	top:0px;
+}
+.motcongcu:hover .layer3{
+	bottom: 0px;
+}
+/* phần cộng đồng bên phải */
+.congdong .phai{
+	width: 400px;
+	height: 730px;
+	display: block;
+	float: left;
+	background-color: #80808047;
+}
+.motnoidung{
+	width: 372px;
+	height: 95px;
+	display: block;
+	border-bottom: 1px solid #808080a8;
+	padding:10px;
+
+}
+.hinhtintuc img,.motspecial .hinhspecial img,.motnoidung .hinhnd img,.motnoidung .tieudend{
+	width: 120px;
+	height: 90px;
+	display: block;
+	float: left;
+	margin:5px;
+	opacity: 1;
+}
+.motnoidung .tieudend{
+	width: 220px;
+}
+a.tieudend,a.tieudespecial,a.tdtintuc{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+.motnoidung .hinhnd img:hover, .motspecial .hinhspecial img:hover,.hinhtintuc img:hover{
+	opacity: 0.5;
+}
+ a.tieudend:hover, a.tieudespecial:hover, a.tdtintuc:hover{
+	text-decoration: none;
+	color: #EC3D79;
+}
+/* phần special*/
+
+.motspecial{
+	width: 380px;
+	height: 350px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+a.hinhspecial{
+	width: 375px;
+	height: 287px;
+	display: block;
+}
+.motspecial .hinhspecial img
+{
+	width: 375px;
+	height: 287px;
+}
+a.tieudespecial{
+	width: 375px;
+	height: 70px;
+}
+/* phần tin tức */
+.tintuc{
+	width: 100%;
+	height: 250px;
+	display: block;
+}
+.mottintuc{
+	width: 250px;
+	height: 250px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+.hinhtintuc img{
+	width: 247px;
+	height: 186px;
+}

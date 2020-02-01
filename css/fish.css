@@ -1,0 +1,62 @@
+**{
+	padding:0px;
+	margin:0px;
+	font-family: 'segoe ui light';
+}
+.banner{
+	width: 100%;
+	height: 600px;
+	display: block;
+	position: relative;
+}
+.hinh{
+	width: 100%;
+	height:600px;
+	position: absolute;
+	z-index: 1;
+	top:0px;
+	left: 0px;
+	animation: zoom 10s forwards;
+}
+.noidung{
+	width: 800px;
+	height: 100px;
+	color: white;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	text-align: center;
+	margin-left: -400px;
+	z-index: 2;
+	opacity: 0;
+	animation: divao 5s forwards;
+	animation-delay: 5s;
+}
+.chunho{
+	font-size: 25px;	
+}
+.chuto{
+	font-size: 45px;
+	font-weight: bold;
+
+}
+@-webkit-keyframes zoom {
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(2);
+	}
+}
+@-webkit-keyframes divao {
+	from{
+		opacity: 0;
+		top:30%;
+/* 		left: 30%; */
+	}
+	to{
+		opacity: 1;
+		top:50%;
+/* 		left: 50%; */
+	}
+}
