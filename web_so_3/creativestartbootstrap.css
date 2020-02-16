@@ -1,0 +1,84 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+    font-family: Merriweather,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+.header{
+	 position: relative;
+}
+.banner{
+	background-image: url("images/c.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+}
+.mask{
+	position: absolute;
+	background-color: #8249374a;
+	z-index: 1;
+	top: 0;
+	left: 0;
+}
+.tieudelon{
+	font-size: 40px;
+	margin:20px;
+	font-weight: bold;
+}
+.tieudenho{
+	font-size: 20px;
+	font-weight: thin;
+}
+.divider{
+	border-width: 2px;
+	border-color: #f4623a;
+	max-width: 50px;
+}
+/* .button{
+	background-color: #f4623a;
+	border-radius: 30px;
+	color: white;
+}
+a:hover .button{
+	background-color: #f94911;
+	color: white;
+} */
+.button{
+	background-color: #f94911;
+	border-radius: 30px;
+	color: white;
+	opacity: 0.8;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: bold;
+	display: inline-block;
+}
+a:hover .button{
+	opacity: 1;
+	color: white;
+}
+.about{
+	background-color: #f4623a;
+}
+hr.light{
+	border-color: white;
+}
+/* .bt_xl{
+	color: black;
+	background-color: white;
+} */
+a:hover .bt_xl{
+	color: black;
+}
+.text-black{
+	color: black;
+}

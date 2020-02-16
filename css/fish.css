@@ -1,4 +1,4 @@
-**{
+*{
 	padding:0px;
 	margin:0px;
 	font-family: 'segoe ui light';
@@ -8,6 +8,7 @@
 	height: 600px;
 	display: block;
 	position: relative;
+	overflow: hidden;
 }
 .hinh{
 	width: 100%;

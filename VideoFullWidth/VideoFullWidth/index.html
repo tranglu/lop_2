@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>video</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <script>
+
+    </script>
+    <style>
+        .video-container {
+            width: 100%;
+            max-height: 1300px;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        /*video {
+            display: block;
+        }*/
+        .video-bg {
+            /*position: relative;
+            width: auto;
+            height: auto;*/
+            min-width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12" style="height: 1300px; background-color: #005cbf;">
+            <div class="video-container">
+                <video  autoplay loop preload="metadata" class="video-bg">
+                    <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+                    <source src="https://www.w3schools.com/html/movie.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript" rel="script" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" rel="script" src="js/bootstrap.js"></script>
+</body>
+</html>
