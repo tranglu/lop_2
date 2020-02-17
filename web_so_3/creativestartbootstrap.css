@@ -12,22 +12,23 @@ body{
     text-align: left;
     background-color: #fff;
 }
-.header{
-	 position: relative;
-}
+
+/* .banner::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background:#31120982;
+	position: absolute;
+	top: 0;
+} */
+
 .banner{
-	background-image: url("images/c.jpg");
+	background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%), url("images/c.jpg");
 	background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover; 
-}
-.mask{
-	position: absolute;
-	background-color: #8249374a;
-	z-index: 1;
-	top: 0;
-	left: 0;
 }
 .tieudelon{
 	font-size: 40px;
@@ -43,27 +44,19 @@ body{
 	border-color: #f4623a;
 	max-width: 50px;
 }
-/* .button{
-	background-color: #f4623a;
-	border-radius: 30px;
-	color: white;
-}
-a:hover .button{
-	background-color: #f94911;
-	color: white;
-} */
 .button{
 	background-color: #f94911;
 	border-radius: 30px;
 	color: white;
-	opacity: 0.8;
+	opacity: 1;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 20px;
 	font-weight: bold;
 	display: inline-block;
+	padding: 10px 20px;
 }
-a:hover .button{
-	opacity: 1;
+a.button:hover {
+	opacity: 0.8;
 	color: white;
 }
 .about{
@@ -72,13 +65,64 @@ a:hover .button{
 hr.light{
 	border-color: white;
 }
-/* .bt_xl{
-	color: black;
-	background-color: white;
-} */
-a:hover .bt_xl{
+a.btn-xl:hover {
 	color: black;
 }
 .text-black{
 	color: black;
 }
+.icon{
+	color: #f4623a;
+	margin-bottom: 20px;
+}
+.image-box{
+	display: block;
+	position: relative;
+}
+.img-mask{
+	position: absolute;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	background:  #f4623a;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	opacity:0;
+	transition: 0.5s;
+}
+a.image-box:hover .img-mask{
+	opacity:1;
+}
+.portfolio{
+	background: #343a40;
+}
+.footer{
+	background-color: #d5d9dd;
+}
+.nentrang{
+	background: white;
+}
+.chucam{
+	color: #ec6952 !important;
+	font-size: 25px;
+}
+
+.scroll{
+	color: red;
+	}
+ @media(max-width:576px){
+	.tieudelon{
+	font-size: 30px;
+	margin:15px;
+}
+.tieudenho{
+	font-size: 10px;
+}
+.divider{
+	max-width: 30px;
+}
+} 

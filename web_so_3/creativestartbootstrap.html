@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>CREATIVE</title>
-    <meta name="viewport" content="width-device-width, initial-scale-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script><!-- mới thêm dòng script này nè -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -17,91 +17,188 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700,700i,900,900i|Montserrat:100,300,400|Open+Sans|Oswald|Roboto|Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="creativestartbootstrap.css">
 </head>
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Start bootstrap</a>
-  <button class="navbar-toggler hidden-sm-up float-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" >
-    <span class="navbar-toggler-icon"></span>
-  </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">about</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">sevice</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Portfoli</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Contact</a>
-      </li>
-    </ul>
-  </div>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-inverse fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">Start bootstrap</a>
+            <button class="navbar-toggler hidden-sm-up float-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">sevice</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Portfoli</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav> <!-- hết navbar -->
+    <div class="banner py-5 position-relative">
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <p class="tieudelon mt-5">YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES</p>
+                    <hr class="divider my-4">
+                    <p class="tieudenho">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
+                    <a href="" class="btn button mt-5 mb-5">Find out more</a>
+                </div>
+            </div>
+        </div>
+        <div id="mask" class="h-100 w-100 bg-white"></div>
+    </div><!-- hết banner -->
+    <div class="about py-5">
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <p class="tieudelon mt-5">We've got what you need!</p>
+                    <hr class="divider light my-4">
+                    <p class="tieudenho">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                    <a href="" class="btn button btn-xl bg-light text-black mt-5 mb-5">get started!</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- hết about -->
+    <div class="service">
+        <div class="container text-center text-black py-5">
+            <div class="row mb-5">
+                <div class="col-lg-10 offset-lg-1">
+                    <p class="tieudelon mt-5">At Your Service</p>
+                    <hr class="divider my-4">
+                </div>
+            </div>
+            <div class="row text-center mt-5">
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <i class="fas fa-4x fa-gem icon"></i>
+                    <h4>Study theme</h4>
+                    <p>Our themes are updated regularly to keep them bug free!</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <i class="fas fa-4x fa-laptop-code icon"></i></i>
+                    <h4>Up to Date</h4>
+                    <p>All dependencies are kept current to keep things fresh.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <i class="fas fa-4x fa-globe icon"></i></i>
+                    <h5>Ready to Publish</h5>
+                    <p>You can use this design as is, or you can make changes!</p>
+                </div>
+                <div class="col-lg-3 col-md-6 mt-3">
+                    <i class="fas fa-4x fa-heart icon"></i></i>
+                    <h4>Made with Love</h4>
+                    <p>Is it really open source if it's not made with love?</p>
+                </div>
+            </div>
+        </div> <!-- hết container   -->
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c1.jpg">
+                        <img class="img-fluid" src="images/c1.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c2.jpg">
+                        <img class="img-fluid" src="images/c2.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c3.jpg">
+                        <img class="img-fluid" src="images/c3.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+            </div> <!-- hết row1 -->
+            <div class="row">
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c4.jpg">
+                        <img class="img-fluid" src="images/c4.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c5.jpg">
+                        <img class="img-fluid" src="images/c5.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 px-0">
+                    <a class="image-box" href="images/c6.jpg">
+                        <img class="img-fluid" src="images/c6.jpg" alt="">
+                        <div class="img-mask text-center">
+                            <p class="text-white-50 m-2">category</p>
+                            <p class="text-white">Project Name</p>
+                        </div>
+                    </a>
+                </div>
+            </div> <!-- hết row1 -->
+        </div> <!-- hết container-fluid -->
+    </div> <!-- hết service -->
+    <div class="portfolio py-5">
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <p class="tieudelon mt-5">Free Download at Start Bootstrap!</p>
+                    <a href="" class="btn button btn-xl bg-light text-black mt-5 mb-5">DOWNLOAD NOW</a>
+                </div>
+            </div>
+        </div>
+    </div> <!-- hết portfolio -->
+    <div class="contact py-5">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 offset-1">
+                    <p class="tieudelon mt-5">Let's Get In Touch!</p>
+                    <hr class="divider my-4">
+                    <p class="tieudenho">Ready to start your next project with us? Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <i class="fas fa-4x fa-phone"></i>
+                            <p>+1 (202) 555-0149</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fas fa-4x fa-envelope"></i>
+                            <a href="">
+                                <p>contact@yourwebite</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- hết CONTACT -->
+    <div class="footer text-center p-3">
+        <small>Copyright © 2019 - Start Bootstrap</small>
     </div>
-</nav> <!-- hết navbar -->
-<div class="banner">
-    <div class="container text-center text-white">
-      <div class="row">
-        <div class="col-10 offset-2">
-          <p class="tieudelon mt-5">YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES</p>
-          <hr class="divider my-2">
-          <p class="tieudenho">Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!</p>
-      <a href="" class="btn button mb-5">Find out more</a>
-        </div>
-      </div>     
-    </div>    
-</div> <!-- hết banner -->  
-<div class="about">
-    <div class="container text-center text-white">
-      <div class="row">
-        <div class="col-8 offset-2">
-          <p class="tieudelon mt-5">We've got what you need!</p>
-          <hr class="divider light my-2">
-          <p class="tieudenho">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-      <a href="" class="btn button bg-light text-black mb-5">get started!</a>
-        </div>
-      </div>     
-    </div>    
-</div> <!-- hết about -->  
-<!-- <div class="mask w-100 h-100"></div> -->
-<div class="service">
-    <div class="container text-center text-black">
-      <div class="row">
-        <div class="col-8 offset-2">
-          <p class="tieudelon mt-5">At Your Service</p>
-          <hr class="divider my-2">
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-3">
-          <i class="fas fa-gem"></i>
-          <h4>Study theme</h4>
-          <p>Our themes are updated regularly to keep them bug free!</p>
-        </div>
-        <div class="col-3">
-          <i class="fas fa-gem"></i>
-          <h4>Study theme</h4>
-          <p>Our themes are updated regularly to keep them bug free!</p>
-        </div>
-        <div class="col-3">
-            <i class="fas fa-gem"></i>
-          <h5>Study theme</h5>
-          <p>Our themes are updated regularly to keep them bug free!</p>
-        </div>
-        <div class="col-3">
-          <i class="fas fa-gem"></i>
-          <h4>Study theme</h4>
-          <p>Our themes are updated regularly to keep them bug free!</p>
-        </div>
-      </div>     
-    </div>    
-</div> <!-- hết about -->  
-</header>
+    <div class="fixed-bottom">
+        <a href="" class="lentren float-right"><i class="fas fa-2x fa-stop scroll"></i></a>
+    </div>
 </body>
 
 </html>

@@ -157,17 +157,18 @@ p.chuto{
 .nentrang{
 	background: white;
 }
-/* @media(max-width:576px){
+ @media(max-width:576px){
 	#menutren{
 		top:100px;
 	}
 	a.logo{
 		top:-3px;
 		width:200px;
-		margin-left:90px;
+		margin-left:100px;
+		text-align: center;
 	}
 	.mphai{
-		background-color:#007bffa3;
+		background-color:#032e43e0;
 		width:100%;
 		padding:15px;
 		top: 80px;
@@ -186,4 +187,4 @@ p.chuto{
 	.banner p{
 		padding-bottom: 15px;
 	}
-} */
+} 
